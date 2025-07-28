@@ -1,7 +1,19 @@
 ## BootCamp Java Santander 2025
   Java RESTful API criada para o bootcamp Santander.
 
-## diagrama de Classes
+## Principais Tecnologias
+
+- **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece
+- **Spring Boot 3**: Trabalharemos com a mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio de sua poderosa premissa de autoconfiguração
+- **Spring Data JPA**: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, facilitando a integração com bancos de dados SQL
+- **OpenAPI (Swagger)**: Vamos criar uma documentação de API eficaz e fácil de entender usando a OpenAPI (Swagger), perfeitamente alinhada com a alta produtividade que o Spring Boot oferece
+- **Railway**: facilita o deploy e monitoramento de nossas soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD
+
+## [Link do Figma](https://www.figma.com/design/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web-Mobile?node-id=1421-432)
+
+O Figma foi utilizado para a abstração do domínio desta API, sendo útil na análise e projeto da solução.
+
+## Diagrama de Classes (Domínio da API)
 
 ````mermaid
 classDiagram
@@ -36,5 +48,19 @@ classDiagram
     User "1" *-- "N" Feature
     User "1" *-- "N" News
 ````
+
+### Documentação da API (Swagger)
+
+https://sbtc-java-2025-prd.up.railway.app/swagger-ui/index.html
+
+Esta API ficará disponível no Railway por um período de tempo limitado, mas este é um código-fonte aberto. Portanto, sintam-se à vontade para cloná-lo, modificá-lo (já que é um bom projeto base para novos projetos) e executar localmente ou onde achar mais interessante!
+
+## IMPORTANTE
+
+Este é um vmp para atender ao desafio porjeto api RESTful da dio.
+
+`digitalinnovationone/santander-dev-week-2023-api`
+
+
 
 
